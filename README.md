@@ -1,6 +1,6 @@
 # 💳 Rewarded.
 
-Rewarded. is a geolocation-based iOS app that recommends the best credit card to use at nearby businesses based on your wallet and nearby business's category. The goal is to help users maximize their credit card rewards (cash back or points). 
+***Rewarded.*** is a geolocation-based iOS app that recommends the best credit card to use at nearby businesses based on your wallet and nearby business's category. The goal is to help users maximize their credit card rewards (cash back or points). 
 
 ---
 
@@ -16,9 +16,9 @@ Rewarded. is a geolocation-based iOS app that recommends the best credit card to
 
 ## Purpose
 
-**Rewarded.** helps users choose where to bring their business to maximize their credit card rewards, with convenience and an intuitive design at the heart of the app. 
+***Rewarded.*** helps users choose where to bring their business to maximize their credit card rewards, with convenience and an intuitive design at the heart of the app. 
 
-**Say** you're at a shopping center for an appointment and want to grab a cup of coffee. Odds are, you have more than a few choices near you. **Rewarded.** provides you with up-to-date information to make the best financially-informed decision for you. 
+***Say*** you're at a shopping center for an appointment and want to grab a cup of coffee. Odds are, you have more than a few choices near you. ***Rewarded.*** provides you with up-to-date information to make the best financially-informed decision for you. 
 
 ---
 
@@ -32,7 +32,7 @@ Rewarded. is a geolocation-based iOS app that recommends the best credit card to
 
 ---
 
-## ✨ Features
+## Features
 
 ✅ Modular SwiftUI components  
 ✅ Onboarding welcome screen with pleasing animations 
