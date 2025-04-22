@@ -6,9 +6,9 @@
 
 ## 📸 Screenshots / Videos
 
-| Welcome Screen | Home View | Wallet |
+| Home View | Add Card | Wallet |
 |----------------|-----------|--------|
-| ![welcome](Assets/welcome.png) | ![home](Assets/home.png) | ![wallet](Assets/wallet.png) |
+| ![Home Screen](Assets/home.png) | ![Add Cards](Assets/addcard.png) | ![Wallet](Assets/wallet.png) |
 
 > 📝 Add `.gif` or screen recordings if you have working features to demo!
 
