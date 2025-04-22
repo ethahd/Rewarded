@@ -29,9 +29,22 @@
 		284543CD2DB6C69F004C0D98 /* RewardedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RewardedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		28F39E292DB801BA00FE6533 /* Exceptions for "Rewarded" folder in "Rewarded" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 284543B12DB6C69D004C0D98 /* Rewarded */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		284543B42DB6C69D004C0D98 /* Rewarded */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				28F39E292DB801BA00FE6533 /* Exceptions for "Rewarded" folder in "Rewarded" target */,
+			);
 			path = Rewarded;
 			sourceTree = "<group>";
 		};
@@ -394,6 +407,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Rewarded/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Rewarded/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Rewarded needs access to your location to display local businesses. ";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -431,6 +446,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Rewarded/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Rewarded/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Rewarded needs access to your location to display local businesses. ";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;

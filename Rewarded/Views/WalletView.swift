@@ -11,18 +11,22 @@ import SwiftData
 struct WalletView: View {
     @Query(sort: \CreditCard.name) var cards: [CreditCard]
     @Environment(\.modelContext) private var context
-
     @State private var showAddCardSheet = false
-
+    
     var body: some View {
         NavigationStack {
             List {
                 ForEach(cards) { card in
                     CardView(card: card)
                 }
+                .onDelete(perform: deleteCards)
             }
-            .navigationTitle("My Wallet")
             .toolbar {
+                ToolbarItem(placement: .topBarLeading) {
+                    Text("My Wallet")
+                        .font(.largeTitle.bold())
+                        .foregroundStyle(LinearGradient(gradient: Gradient(colors: [Color("Plat"), Color("Gold")]), startPoint: .top, endPoint: .bottom))
+                }
                 ToolbarItem(placement: .automatic) {
                     Button(action: {
                         showAddCardSheet = true
@@ -48,6 +52,12 @@ struct WalletView: View {
                     .presentationBackgroundInteraction(.enabled(upThrough: .large))
                     .presentationCornerRadius(21)
             }
+        }
+    }
+    
+    private func deleteCards(at offsets: IndexSet) {
+        for index in offsets{
+            context.delete(cards[index])
         }
     }
 }

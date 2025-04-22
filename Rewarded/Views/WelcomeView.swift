@@ -34,11 +34,11 @@ struct WelcomeView: View {
                         .padding(.top, 50)
                     
                     if showLine1 {
-                        Text("Rewarded")
+                        Text("Rewarded.")
                             .font(.largeTitle)
                             .fontWeight(.bold)
                             .foregroundStyle(Color("Gold"))
-                            .transition(.slide)
+                            .transition(AnyTransition.move(edge: .trailing))
                     }
                     
                     if showLine2 {
@@ -58,7 +58,7 @@ struct WelcomeView: View {
                         }) {
                             Text("Get Started")
                                 .font(.title3)
-                                .fontWeight(.semibold)
+                                .fontWeight(.regular)
                                 .foregroundStyle(Color.black)
                                 .padding()
                                 .background(LinearGradient(gradient: Gradient(colors: [Color("Plat"), Color("Gold")]), startPoint: .top, endPoint: .bottom))
@@ -68,7 +68,7 @@ struct WelcomeView: View {
                     }
                 }
                 .onAppear {
-                    withAnimation(.easeInOut(duration: 1.0)) {
+                    withAnimation(.easeInOut(duration: 1.5)) {
                         showWallet = true
                     }
                     DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
@@ -77,17 +77,17 @@ struct WelcomeView: View {
                         }
                     }
                     DispatchQueue.main.asyncAfter(deadline: .now() + 2.2) {
-                        withAnimation(.easeIn(duration: 1.0)) {
+                        withAnimation(.easeInOut(duration: 1.0)) {
                             showLine1 = true
                         }
                     }
                     DispatchQueue.main.asyncAfter(deadline: .now() + 2.8) {
-                        withAnimation(.easeIn(duration: 1.0)) {
+                        withAnimation(.easeInOut(duration: 1.0)) {
                             showLine2 = true
                         }
                     }
                     DispatchQueue.main.asyncAfter(deadline: .now() + 3.2) {
-                        withAnimation(.easeIn(duration: 1.0)) {
+                        withAnimation(.easeInOut(duration: 1.0)) {
                             showButton = true
                         }
                     }
