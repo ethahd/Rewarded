@@ -42,7 +42,7 @@ struct WelcomeView: View {
                     }
                     
                     if showLine2 {
-                        Text("Reward Yourself")
+                        Text("Maximize your rewards.")
                             .font(.largeTitle)
                             .fontWeight(.bold)
                             .foregroundStyle(Color("Plat"))
