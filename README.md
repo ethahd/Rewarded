@@ -64,7 +64,7 @@
 
 - Accesibility support
 - Add a settings tab to allow the user to:
-  Choose units of display (miles, kilometers, etc.)
+  \nChoose units of display (miles, kilometers, etc.)
   Set distance radius (search for businesses within 1 mile, 5 miles, etc.)
 - MapView of nearby businesses
 - Add a detailed BusinessItemView for each business within user's location radius:
