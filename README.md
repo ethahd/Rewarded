@@ -34,11 +34,17 @@
 ## Features
 
 ✅ Modular SwiftUI components  
-✅ Onboarding welcome screen with pleasing animations 
+
+✅ Onboarding welcome screen with pleasing animations
+
 ✅ Browse available cards and add to wallet 
+
 ✅ Real-time geolocation-based business list (sorted by distance)  
+
 ✅ Reward matching logic for best card recommendations depending on business category 
+
 ✅ Swipe-to-refresh and dynamic location updates  
+
 ✅ Local SwiftData persistence  
 
 ---
