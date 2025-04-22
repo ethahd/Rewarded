@@ -8,7 +8,7 @@
 
 | Home View | Add Card | Wallet |
 |----------------|-----------|--------|
-| ![Home Screen](Home.png) | ![Add Cards](Addcard.png) | ![Wallet](wallet.png) |
+| ![Home Screen](Homeview.png) | ![Add Cards](Addcard.png) | ![Wallet](wallet.png) |
 
 
 ---
