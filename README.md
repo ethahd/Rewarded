@@ -64,21 +64,32 @@
 
 - Accesibility support
 - Add a settings tab to allow the user to:
-  \nChoose units of display (miles, kilometers, etc.)
-  \nSet distance radius (search for businesses within 1 mile, 5 miles, etc.)
+
+  Choose units of display (miles, kilometers, etc.)
+
+  Set distance radius (search for businesses within 1 mile, 5 miles, etc.)
 - MapView of nearby businesses
 - Add a detailed BusinessItemView for each business within user's location radius:
-  \nView photo/logo of the business (fetching from API)
-  \nView location (map view relative to user location)
-  \nView rating of business (from yelp or google maps)
-  \nView rewards for all cards in wallet at each business with applicable rewards categories highlighted
+
+  View photo/logo of the business (fetching from API)
+
+  View location (map view relative to user location)
+
+  View rating of business (from yelp or google maps)
+
+  View rewards for all cards in wallet at each business with applicable rewards categories highlighted
 - Add support for more cards and dynamically fetching rewards categories/values
-  \nFetch rotating offers for cards and display offer if matched to business
+
+  Fetch rotating offers for cards and display offer if matched to business
 - More rigorous reward calculation for loosely defined categories
-  \nFor example, a category of type 'Coffee Shop' should also be recognized as a Restaurant
+
+  For example, a category of type 'Coffee Shop' should also be recognized as a Restaurant
 - Polish UI flow
-  \nAllow user to create account
-  \nPolish welcome screen
-  \nAllow user to filter types of businesses displayed
+
+  Allow user to create account
+
+  Polish welcome screen
+
+  Allow user to filter types of businesses displayed
 
 
