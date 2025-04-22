@@ -8,7 +8,7 @@
 
 | Home View | Add Card | Wallet |
 |----------------|-----------|--------|
-| ![Home Screen](Assets/home.png) | ![Add Cards](Assets/addcard.png) | ![Wallet](Assets/wallet.png) |
+| ![Home Screen](Home.png) | ![Add Cards](AddCard.png) | ![Wallet](Assets/wallet.png) |
 
 > 📝 Add `.gif` or screen recordings if you have working features to demo!
 
